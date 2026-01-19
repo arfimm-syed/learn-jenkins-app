@@ -38,4 +38,10 @@ agent{
 
            }   
         }
+        post{
+always{
+    junit 'test-results/jnit.xml'
+}
+
+        }
     }
