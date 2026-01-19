@@ -47,7 +47,7 @@ always {
         }
     }
 
-      stages ('deploy') {
+      stages('Deploy') {
             agent{
                 docker {
                     image 'node:18-alpine'
