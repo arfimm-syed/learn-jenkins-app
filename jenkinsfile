@@ -38,9 +38,9 @@ agent{
 
            }   
         }
-        post{
-always{
-    junit 'test-results/jnit.xml'
+        post {
+always {
+    junit 'test-results/junit.xml'
 }
 
         }
